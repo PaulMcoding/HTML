@@ -1,0 +1,106 @@
+body
+{
+    background-image: url("https://images.unsplash.com/photo-1614706150721-3346ec4c47f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80");
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: gray;
+    margin: 0px;
+}
+
+#extra_pages
+{
+    background-color: gray;
+}
+
+header
+{
+    margin: 10px;
+    background-color: #D3D3D3;
+    text-align: center;
+    border: 2px solid black;
+    text-shadow: 2px 2px 2px gray;
+    border-radius: 50px;
+}
+
+header:hover
+{
+    border: 2px dotted black;
+    border-radius: 50px;
+}
+
+p
+{
+    color: #C0C0C000;
+    font: 15px Arial;
+}
+
+h1
+{
+    font: 20px Arial;
+    color: black;
+    text-transform: uppercase;
+    font-stretch: expanded;
+    text-shadow 30px 30px #ffffff;
+}
+
+h2
+{
+    font: 18px Arial;
+    color: black;
+    font-stretch: expanded;
+    text-shadow 30px 30px #ffffff;
+}
+
+table
+{
+    color: white;
+    table-layout: auto;
+    width 180px;
+    border: 10px solid gray;
+    background-color: gray;
+    border-radius: 25px;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+footer
+{
+    position: fixed;
+    color: white;
+    background: 10px, #C0C0C01A;
+    padding: -10px -10px 0px -10px;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    height: 50px;
+}
+
+td:hover
+{
+    border: 2px dotted pink;
+    border-radius: 10px;
+}
+
+.table_link
+{
+    color: white;
+    text-decoration: none;
+}
+
+.table_link:visited
+{
+    color: lightgray;
+}
+
+#miot
+{
+    color: white;
+    text-decoration: none;
+    background: 5px gray;
+    border: 5px solid gray;
+    border-radius: 50px;
+    margin: 2% 40% 20% 40%;
+    text-align: center
+}

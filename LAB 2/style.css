@@ -1,6 +1,8 @@
+/*All these styles are for the main web page */
+
 body
 {
-    background-image: url("https://images.unsplash.com/photo-1614706150721-3346ec4c47f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80");
+    background-image: url("./images/background.jpeg");
     background-size: 110%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -103,4 +105,16 @@ td:hover
     border-radius: 50px;
     margin: 2% 40% 20% 40%;
     text-align: center
+}
+
+form
+{
+    background: 10px lightgray;
+    margin: 2% 40% 20% 40%;
+    text-align: center;
+    margin-top: 25px;
+    border: 5px solid lightgray;
+    border-radius: 10px;
+    width: 20%;
+
 }

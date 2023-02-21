@@ -1,0 +1,73 @@
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+}
+
+.flex-child:first-child {
+    margin-right: 100px;
+}
+
+.teal
+{
+color: teal;
+}
+
+.teal2
+{
+    color: teal;
+    float: right;
+    margin: 0 20px 0 0;
+    vertical-align: top;
+    display: inline-block;
+    text-align: left;
+}
+
+.teal3
+{
+    color: teal;
+    float: right;
+    vertical-align: top;
+    margin-top: -80px;
+    margin-left: 30%;
+    display: inline-block;
+    text-align: left;
+}
+
+.boder1
+{
+    float: right;
+    vertical-align: top;
+    margin: -35px 10px 0 0;
+    display: inline-block;
+}
+
+.boder2
+{
+    float: right;
+    display: inline-block;
+    margin: -30px 30px 0 0;
+    vertical-align: top;
+}
+
+.readmore
+{
+    color: teal;
+    float: right;
+    vertical-align: top;
+    display: inline-block;
+    padding: -10px;
+    margin: -18.5px 80px 0 0;
+}
+
+.readmore2
+{
+    color: teal;
+    float: right;
+    vertical-align: top;
+    display: inline-block;
+    padding: -10px;
+    margin: -18.5px 95px 0 0;
+}

@@ -5,7 +5,7 @@ function changeImage() {
   } else {
     image.src = "images/maybach.jpeg";
   }
-}
+
 
 function changeText()
 {

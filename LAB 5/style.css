@@ -1,0 +1,55 @@
+#sidemenu
+{
+    scale: 120%;
+    margin-top: 50px;
+}
+
+#text
+{
+    width: 30%;
+    margin-left: 300px;
+    margin-top: -200px;
+}
+
+#pp
+{
+    width: 30%;
+    margin: -80px 0 0 300px;
+    text-align: center;
+}
+
+#imim
+{
+    margin: -80px 0 0 55%;
+}
+
+.leftcolumn
+{
+    margin-top: -50px;
+    float: left;
+    width: 20%;
+}
+
+.rightcolumn
+{
+    float: left;
+    width: 75%;
+}
+
+hr
+{
+    width: 60%;
+    margin: 20px 0 0 300px;
+    color: blue;
+}
+
+#sec3
+{
+    margin: 0 0 0 300px;
+}
+
+#header
+{
+    color: teal;
+    margin: -120px 0 0 200px;
+}

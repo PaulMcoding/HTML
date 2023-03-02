@@ -1,0 +1,82 @@
+body
+            {
+                position: relative;
+                min-width: 900px;
+                max-width: 900px;
+                margin:auto;
+            }
+            #topnav
+            {
+                padding: 0 0 0 360px;
+            }
+
+            #block1
+            {
+                margin: -40px 0 0 368px;
+            }
+
+            #login
+            {
+                margin: 0 0 0 890px;
+            }
+
+            #print
+            {
+                margin: -35px 0 0 980px;
+            }
+
+            .imageblocks
+            {
+                margin-left: 360px;
+                height:400px;
+                width:510px;
+            }
+
+            #formbar
+            {
+                position: relative;
+                left: 870px;
+                top: -600px;
+                width: 250px;
+            }
+
+            .input1
+            {
+              margin: 0 0 0 10px;
+              box-sizing: border-box;
+            }
+
+            .input2
+            {
+              margin: 5px 0 0 13px;
+              box-sizing: border-box;
+            }
+
+            #text
+            {
+                margin: -400px 0 0 910px;
+                width: 150px;
+                text: inline-block;
+            }
+
+            #arrows
+            {
+                scale: 80%;
+                margin: -420px 0 0 850px;
+                width: 220px;
+                height: auto;
+            }
+
+            #arrow2
+            {
+                font-size: 12;
+                scale: 80%;
+                margin: 0 0 0 840px;
+                width:300px;
+            }
+
+            #usern
+            {
+                margin: -700px 0 0 880px;
+                width: 250px;
+            }

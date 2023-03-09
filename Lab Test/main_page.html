@@ -1,0 +1,159 @@
+<!--Paul Murnane C21359216-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab Test</title>
+    <style>
+        .currentNews
+        {
+            background-color: transparent;
+            border-color: transparent;
+            display: inline-block;
+            font-size: 24px;
+        }
+        #currentChoice
+        {
+            background-color: transparent;
+            border-color: transparent;
+            display: inline-block;
+            font-size: 30px;
+            margin-left: -10px;
+            border-bottom: 5px solid red;
+        }
+        #title
+        {
+            font-size: 30px;
+        }
+        .stlye
+        {
+            margin-left: 100px;
+        }
+        hr
+        {
+            color: red;
+        }
+        .buttonTime
+        {
+           background-color: transparent;
+           border-color: transparent;
+           display: inline-block;
+        }
+        .buttonTime2
+        {
+           background-color: transparent;
+           border-color: transparent;
+           display: inline-block;
+           float: right;
+           margin: 60px -80px 0 0;
+           color: gray;
+        }
+        .buttonTime3
+        {
+           background-color: transparent;
+           border-color: transparent;
+           display: inline-block;
+           float: right;
+           margin: 60px -180px 0 0;
+           color: gray;
+        }
+        #buttonTime4
+        {
+           background-color: transparent;
+           border-color: transparent;
+           display: inline-block;
+           float: right;
+           margin: -21px 0 0 200px;
+           color: gray;
+        }
+        #leftbar
+        {
+            float: right;
+            margin: -450px 480px 0 0
+        }
+        #temp
+            {
+                position: relative;
+                top: 6px;
+            }
+        #iran
+        {
+            float: right;
+            margin: -260px 350px 0 0;
+            display: inline-block;
+            border-left: 1px solid gray;
+            border-top: 1px solid gray;
+        }
+    </style>
+    <script>
+        function func()
+        {
+            window.open('https://www.tudublin.ie');
+        }
+    </script>
+</head>
+<body>
+
+<section>
+    <img src="topbanner.jpg" style="width: 89.7%; margin-left: 70px">
+    <img src="lowbanner.jpg" style="margin-left: 70px">
+
+    <div class="stlye">
+        <button id="currentChoice" onclick="func()"><b>World</b></button>
+        <p class="currentNews" style="color: lightgrey;">|</p>
+        <button class="currentNews" onclick="func()">Africa </button>
+        <p class="currentNews" style="color: lightgrey;">|</p>
+        <button class="currentNews" onclick="func()">Asia </button>
+        <p class="currentNews" style="color: lightgrey;">|</p>
+        <button class="currentNews" onclick="func()">Australia </button>
+        <p class="currentNews" style="color: lightgrey;">|</p>
+        <button class="currentNews" onclick="func()">Europe </button>
+        <p class="currentNews" style="color: lightgrey;">|</p>
+        <button class="currentNews" onclick="func()">Latin America </button>
+        <p class="currentNews" style="color: lightgrey;">|</p>
+        <button class="currentNews" onclick="func()">Middle East </button>
+        <p class="currentNews" style="color: lightgrey;">|</p>
+        <button class="currentNews" onclick="func()">US and Canada </button>
+    </div>
+    <div class="stlye">
+            <p id="title"><b>New US shutdown looms as talks stall</b></p>
+            <p style="margin-bottom: -80px;">Negoitators hope to hit a Friday <br>deadline disagree on issues<br>
+                inlcuding money for a border
+                wall</p>
+            <button class="buttonTime" style="border-bottom: solid red;">1 hour ago</button>
+            <p style="display: inline-block; color: lightgrey;" >|</p>
+            <button class="buttonTime" style="color: red;" onclick="func()"> US and Canada</button>
+            <img src="mainnews.jpg" style="margin: 0 0 0 50px">
+        <div>
+            <label>What is a shutdown?</label><br><br>
+            <label>How the last shutdown hurt</label><br><br>
+            <label>How tech fills border wall gaps</label><br><br>
+            <label>Trumps wall - in 7 charts</label><br>
+        </div>
+    </div>
+    <div id="leftbar">
+        <p style="font-size: 24px; color: gray;"> Watch/Listen</p>
+        <img id="temp" src="live.jpg">
+        <label style="font-size: 18px; color: gray; margin-top: -10px;">World Service Radio</label>
+    </div>
+
+    <div id="iran">
+            <img src="video1.jpg">
+            <p style="float: right; margin-left: 10px; font-size: 18px;" onclick="func()"><b>
+                Iran marks revolutions<br>40th Anniversary</b></p>
+            <button class="buttonTime2">2 hours ago</button>
+            <button class="buttonTime3" style="color: red;" onclick="func()"> Middle East</button>
+            <br><br>
+            <br><br>
+            <img src="video2.jpg">
+            <p style="float: right; margin-left: 10px; font-size: 18px;" onclick="func()"><b>Life in the Poorest
+                city<br>in the
+                US</b></p>
+            <button class="buttonTime2">11 February 2019</button>
+            <br>
+            <button id="buttonTime4" style="color: red;" onclick="func()"> US and Canada</button>
+        </div>
+</section>
+</body>
+</html>

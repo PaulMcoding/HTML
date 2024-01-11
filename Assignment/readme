@@ -1,0 +1,92 @@
+C21359216
+TU857/2
+Paul Murnane
+
+File structure:
+All files are in one folder as when i tried to add them to their own folder, E.g Accountedit folder, the code would break
+
+Why did i choose to make a car website:
+I am very interested in cars, so i made a website like one i would like to exist as a proper website.
+THe functions of looking up different cars, adding and deleting using the car communities knowledge to build up a
+database of all cars is a very interesting concept that I would like to see come to reality.
+
+PHP:
+To help further my knowledge of PHP i used the lecture notes and W3Schools.
+
+HTML:
+For all the HTML the only sources i used were the lecture notes.
+
+CSS:
+For CSS i used W3Schools and some StackOverflow just to remind myself the structure, for example, "font-size: 10px;"
+i had put in "font: 10px;" and it didnt work, so i checked W3Schools.
+
+Javascript:
+I chose not to implement any JavaScript throughout this project as i found PHP worked better overall for dynamically
+changing things, and it was easier to implement in my opinion
+
+Hierarchy:
+Main Page:
+    {
+        main page (choosing of what make of car you want to view details of)
+        carchoice.php (choosing the model from the make youve chosen)
+            cardesc (view details of chosen make & model)
+
+        getAccount: (View account details, singular account for normal user, all accounts for admin)
+            edit (edit account details, username, email & password)
+            delete (delete an account)
+
+        Logout (logs the user out and resets session)
+
+        Loginpage (Allow user to login to their account)
+            Login (query the database to check whether credentials are correct)
+            signuppage: (allow a user without an account to sign up to the website with new details)
+                signup (insert the data into the database and then log the user in)
+
+        whoarewe (View the blurb written about CarsAndBuys)
+
+        memberactions: (If a user is logged in they have a choice to add cars or edit existing cars)
+
+            addcar: (User specifies the make of the car they want to add, this is then queried with the database if the make
+            exists it will pull its makeID out and insert into it, otherwise itll assign a new makeID to the inserted make)
+                addcarinfo: (ALlow user to add model name, description and image source for the car(
+                    insertcardetails: (actual data is inserted into the database for reading and editing later)
+
+            editcar: (Allow users to view all cars in database and choose to edit or delte them from the database)
+                editchoicecar: (insert the new details for the car they have chosen)
+                    carfinaledit (Push these edits to the database so they can be reflected elsewhere)
+                deletechoicecar: (after choosing the car for deletion prompted again if they are sure)
+                    cardeleter (if user is sure, delete all data of the car from the database)
+    }
+
+    style.css
+    {
+        All files except:
+            whoarewe
+            getAccount
+            edit
+            delete
+            editcar
+            deletechoicecar
+            editchoicecar
+        inherit from style.css
+    }
+
+    whoarewe.css
+    {
+        whoarewe inherits from whoarewe.css
+    }
+
+    accountstyle.css
+    {
+        getAccount
+        edit
+        delete
+        editcar
+        deletechoicecar
+        editchoicecar
+        all inherit from accountstyle.css as they all have similar attributes that arent styled in normal style.css
+    }
+
+    Overall style choice:
+        I kept the overall style rather monotone with greys and whites to make the viewers eyes be drawn to the different
+        page choices as opposed to their eyes being drawn around the page to unnecessary parts.
